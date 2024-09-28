@@ -71,7 +71,7 @@ def map_resource_to_icon(resource_type):
 def generate_diagram(resources, output_file):
     graph_attr = {
         "fontsize": "45",
-        "bgcolor": "transparent"
+        "bgcolor": "white" #I like transparent more but this works better for attaching
     }
     node_attr = {
         "fontsize": "14"

@@ -14,14 +14,17 @@ These can also be called as part of a GitHub Actions workflow/pipeline.
 
 
 GCP:
+
 <img width="699" alt="image" src="https://github.com/user-attachments/assets/493b26a6-bcb8-48f6-9f9f-b3ac27e8d86b">
 
 OCI:
+
 <img width="914" alt="image" src="https://github.com/user-attachments/assets/296d44ec-8409-494b-95bf-400ae175dbd1">
 
 
 
 Example Actions workflow that will post to a Pull Request as a comment:
+
 ```yaml
 
       - name: Setup Python

@@ -21,7 +21,7 @@ OCI:
 
 
 
-Example that will post to a Pull Request as a comment:
+Example Actions workflow that will post to a Pull Request as a comment:
 ```yaml
 
       - name: Setup Python

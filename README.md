@@ -45,7 +45,7 @@ Example that will post to a Pull Request as a comment:
       - name: Generate Infrastructure Diagram
         working-directory: ${{ github.workspace }}
         run: |
-          python CloudCartography/GCP/gcp.py --state=PATH/TO/terraform/terraform.tfstate --output=infra_diagram
+          python CloudCartography/<cloud>/<script_name>.py --state=PATH/TO/terraform/terraform.tfstate --output=infra_diagram
 
       - name: Get current time
         uses: josStorer/get-current-time@v2
